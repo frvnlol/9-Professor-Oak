@@ -7,33 +7,48 @@ const questions = [
     {
       type: 'input',
       name: 'name',
-      message: 'What is your name?',
-    },
-    {
-      type: 'input',
-      name: 'location',
-      message: 'Where are you from?',
-    },
-    {
-      type: 'input',
-      name: 'hobby',
-      message: 'What is your favorite hobby?',
-    },
-    {
-      type: 'input',
-      name: 'food',
-      message: 'What is your favorite food?',
+      message: 'Enter your name',
     },
     {
       type: 'input',
       name: 'github',
-      message: 'Enter your GitHub Username',
+      message: 'Enter your GitHub username',
     },
     {
       type: 'input',
-      name: 'linkedin',
-      message: 'Enter your LinkedIn URL.',
+      name: 'email',
+      message: 'Enter your email address',
     },
+    {
+      type: 'input',
+      name: 'title',
+      message: 'Enter project title',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Enter project description',
+      },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'Enter installation instructions',
+      },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'Enter usage information',
+      },
+      {
+        type: 'input',
+        name: 'contribution',
+        message: 'Enter contributers',
+      },
+      {
+        type: 'input',
+        name: 'test',
+        message: 'Enter test instructions',
+      },
   ];
 
 // TODO: Create a function to write README file
