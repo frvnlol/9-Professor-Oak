@@ -57,7 +57,7 @@ const questions = [
   },
   {
     type: "list",
-    name: "license",
+    name: "licenses",
     message: "Choose what license you would like ot include.",
     choices: ["MIT", "GPL", "ISC"],
   },
